@@ -3,7 +3,6 @@ title: Man on Mars
 published_at: 2023-09-13
 ---
 
-Man on Mars
 
 In the not-so-distant future, humanity had achieved the unimaginable. A spaceship named "Pioneer" was on a historic mission to Mars, carrying the first human expedition to set foot on the Red Planet. The crew of six astronauts, led by Commander Alex Mitchell, had trained for years, and the whole world watched with bated breath as the spacecraft touched down gently on the Martian surface.
 
