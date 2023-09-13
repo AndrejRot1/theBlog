@@ -1,5 +1,5 @@
 ---
-title: testing new post
+title: Man on Mars
 published_at: 2023-09-13
 ---
 
