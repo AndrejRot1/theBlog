@@ -18,7 +18,3 @@ Well for suhure is flying to get something to eat like a bit of honey :-)
 [short_test.webm](https://github.com/AndrejRot1/theBlog/assets/18260003/8a79e648-19da-4e14-b18f-e6ffb8102813)
 
 
-## This wouldn't work
-
-<video width="630" height="300" src="example-video.mp4"></video>
-
