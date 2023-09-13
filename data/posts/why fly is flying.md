@@ -17,6 +17,3 @@ Well for suhure is flying to get something to eat like a bit of honey :-)
 
 [short_test.webm](https://github.com/AndrejRot1/theBlog/assets/18260003/8a79e648-19da-4e14-b18f-e6ffb8102813)
 
-Mixture Variants:
-
-https://user-images.githubusercontent.com/6877923/115474571-03c75800-a23e-11eb-8096-8973aad5fa9f.mp4
