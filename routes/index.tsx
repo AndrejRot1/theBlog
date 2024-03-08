@@ -6,16 +6,30 @@ import { Container } from "../components/Container.tsx";
 import { HomeHeader } from "../components/HomeHeader.tsx";
 import { PostPreview } from "../components/PostPreview.tsx";
 
+
 interface Data extends State {
   posts: Post[];
 }
 
-export const handler: Handlers<Data, State> = {
-  async GET(_req, ctx) {
+
+
+export const handler: Handlers = {
+  async GET(req, ctx) {
+    const url = new URL(req.url);
+    const q = url.searchParams.get("q");
     const posts = await listPosts();
-    return ctx.render({ ...ctx.state, posts });
+    const data: Data = {
+      posts,
+      locales: []
+    };
+    if (q) {
+      data.posts = posts.filter((post) => post.title.includes(q));
+    }
+    return await ctx.render(data);
   },
 };
+
+
 
 export default function Home(props: PageProps<Data>) {
   const { posts } = props.data;
